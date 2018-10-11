@@ -1,0 +1,13 @@
+[package]
+name = "conllrust"
+version = "0.1.0"
+authors = ["jesper.nasman@gmail.com"]
+
+[lib]
+name = "conllrust"
+crate-type = ["dylib"]
+
+[dependencies.cpython]
+version = "*"
+default-features = false
+features = ["python27-sys"]
